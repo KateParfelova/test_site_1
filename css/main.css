@@ -57,6 +57,11 @@ ul {
   width: 100%;
   background-image: linear-gradient(to right, #000000 37.5%, #181823 30%);
 }
+@media only screen and (max-width: 992px) {
+  .header_container_fluid {
+    background-image: linear-gradient(to right, #000000 30%, #181823 30%);
+  }
+}
 @media only screen and (max-width: 768px) {
   .header_container_fluid {
     background-image: none;
@@ -75,17 +80,17 @@ ul {
 }
 @media only screen and (max-width: 992px) {
   .navbar {
-    padding: 0 58px 1.5rem 58px;
+    padding: 0 58px 0 58px;
   }
 }
 @media only screen and (max-width: 768px) {
   .navbar {
-    padding: 0 40px 1.5rem 40px;
+    padding: 0 40px 0 40px;
   }
 }
 @media only screen and (max-width: 320px) {
   .navbar {
-    padding: 0 20px 1.5rem 20px;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -93,7 +98,7 @@ ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 32px 24px 32px 24px;
+  padding: 32px 0 32px 0;
 }
 
 .h-1 {
