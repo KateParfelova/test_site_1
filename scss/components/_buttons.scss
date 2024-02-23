@@ -3,4 +3,9 @@
     @include font_property($body_2_size, $regulr_font);
     line-height: 24px;
     color: $text_color;
+    background-color: none;
+    transition: background-color 0.1s;
+}
+.nav_btn_items:hover{
+    background-color: $primary_color;
 }

@@ -51,6 +51,12 @@ ul {
   font-weight: normal;
   line-height: 24px;
   color: #FFFFFF;
+  background-color: none;
+  transition: background-color 0.1s;
+}
+
+.nav_btn_items:hover {
+  background-color: #5221E6;
 }
 
 .header_container_fluid {
