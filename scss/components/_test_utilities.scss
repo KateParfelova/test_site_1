@@ -1,0 +1,9 @@
+.h-1 {
+    @include font_property($h_1_size, $bold_font);
+    color: $text_color;
+}
+
+.h-3 {
+    @include font_property($h_3_size, $bold_font);
+    color: $text_color;
+}
