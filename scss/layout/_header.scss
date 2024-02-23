@@ -1,0 +1,20 @@
+.header_container_fluid{
+    @include container(fluid-container);
+    background-image: linear-gradient(to right, $base_color 37.5%, $level_1_color 30%);
+    @include media(max, md){
+        background-image: none;
+    }
+}
+.navbar{
+    @include container(base-container);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 32px 24px 32px 24px;
+}

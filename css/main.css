@@ -30,4 +30,80 @@ button[disabled], html input[disabled] {
 
 textarea {
   overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+.nav_btn_items {
+  padding: 32px 24px 32px 24px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.header_container_fluid {
+  width: 100%;
+  background-image: linear-gradient(to right, #000000 37.5%, #181823 30%);
+}
+@media only screen and (max-width: 768px) {
+  .header_container_fluid {
+    background-image: none;
+  }
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  padding: 0 72px 0 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding: 0 58px 1.5rem 58px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 40px 1.5rem 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar {
+    padding: 0 20px 1.5rem 20px;
+  }
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 32px 24px 32px 24px;
+}
+
+.h-1 {
+  font-size: 78px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.h-3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

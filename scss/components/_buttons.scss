@@ -1,0 +1,6 @@
+.nav_btn_items{
+    padding: 32px 24px 32px 24px;
+    @include font_property($body_2_size, $regulr_font);
+    line-height: 24px;
+    color: $text_color;
+}

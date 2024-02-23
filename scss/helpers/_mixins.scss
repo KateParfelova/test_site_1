@@ -18,13 +18,13 @@
     max-width: 1440px;
     padding: 0 72px 0 72px;
     @include media(max, lg){
-      padding: 0 58px 0 58px;
+      padding: 0 58px 1.5rem 58px;
     }
     @include media(max, md){
-      padding: 0 40px 0 40px;
+      padding: 0 40px 1.5rem 40px;
     }
     @include media(max, xs){
-      padding: 0 20px 0 20px;
+      padding: 0 20px 1.5rem 20px;
     }
   }
   @if $container == "fluid-container"{
