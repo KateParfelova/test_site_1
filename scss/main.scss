@@ -1,3 +1,8 @@
 @import "variables";
 @import "mixins";
 @import "normalize";
+
+.container{
+    @include container;
+    background-color: $light_grey_color;
+}
