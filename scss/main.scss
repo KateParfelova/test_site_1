@@ -1,8 +1,5 @@
-@import "variables";
-@import "mixins";
+@import "helpers/variables";
+@import "helpers/mixins";
 @import "normalize";
-
-.container{
-    @include container;
-    background-color: $light_grey_color;
-}
+@import "components/buttons";
+@import "layout/header";
