@@ -30,4 +30,13 @@ button[disabled], html input[disabled] {
 
 textarea {
   overflow: auto;
+}
+
+.article {
+  display: flex;
+}
+
+.text_of_article {
+  color: #DEECF9;
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */

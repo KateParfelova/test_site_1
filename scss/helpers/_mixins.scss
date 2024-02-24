@@ -31,3 +31,7 @@
     width: 100%;
   }
 }
+@mixin text_article_work() {
+  color:$light_grey_color;
+  font-size:$overline_size;
+}

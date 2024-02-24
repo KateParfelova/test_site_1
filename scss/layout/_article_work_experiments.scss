@@ -1,3 +1,6 @@
 .article {
     display:flex;
 }
+.text_of_article {
+    @include text_article_work;
+}
