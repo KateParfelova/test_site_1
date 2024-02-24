@@ -3,9 +3,17 @@
     @include font_property($body_2_size, $regulr_font);
     line-height: 24px;
     color: $text_color;
-    background-color: none;
-    transition: background-color 0.1s;
+    background-color: transparent;
+    transition: background-color 0.2s;
 }
 .nav_btn_items:hover{
+    background-color: $primary_color;
+}
+@media (hover: none) {
+    .nav_btn_items:hover {
+        background-color: transparent;
+    }
+}
+.nav_btn_items:active{
     background-color: $primary_color;
 }

@@ -1,0 +1,6 @@
+.container-fluid{
+    @include container(fluid-container);
+}
+.container{
+    @include container(base-container);
+}

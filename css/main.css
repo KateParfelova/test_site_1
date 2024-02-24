@@ -51,16 +51,24 @@ ul {
   font-weight: normal;
   line-height: 24px;
   color: #FFFFFF;
-  background-color: none;
-  transition: background-color 0.1s;
+  background-color: transparent;
+  transition: background-color 0.2s;
 }
 
 .nav_btn_items:hover {
   background-color: #5221E6;
 }
 
+@media (hover: none) {
+  .nav_btn_items:hover {
+    background-color: transparent;
+  }
+}
+.nav_btn_items:active {
+  background-color: #5221E6;
+}
+
 .header_container_fluid {
-  width: 100%;
   background-image: linear-gradient(to right, #000000 37.5%, #181823 30%);
 }
 @media only screen and (max-width: 992px) {
@@ -107,6 +115,20 @@ ul {
   padding: 32px 0 32px 0;
 }
 
+.header_article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main_header_h {
+  font-size: 78px;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 3;
+}
+
 .h-1 {
   font-size: 78px;
   font-weight: bold;
@@ -117,4 +139,40 @@ ul {
   font-size: 24px;
   font-weight: bold;
   color: #FFFFFF;
+}
+
+.img {
+  max-width: 100%;
+  width: 700px;
+  height: 600px;
+  background-image: url("/res/portret.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  padding: 0 72px 0 72px;
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    padding: 0 58px 0 58px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 40px 0 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    padding: 0 20px 0 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
