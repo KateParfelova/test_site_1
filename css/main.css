@@ -71,12 +71,7 @@ ul {
 .header_container_fluid {
   background-image: linear-gradient(to right, #000000 37.5%, #181823 30%);
 }
-@media only screen and (max-width: 992px) {
-  .header_container_fluid {
-    background-image: linear-gradient(to right, #000000 30%, #181823 30%);
-  }
-}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   .header_container_fluid {
     background-image: none;
   }
@@ -119,14 +114,49 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1440px) {
+  .header_article {
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header_article {
+    flex-direction: column;
+    position: static;
+    padding-left: 40px;
+  }
 }
 
 .main_header_h {
   font-size: 78px;
   font-weight: bold;
+  width: 100%;
   color: #FFFFFF;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .main_header_h {
+    font-size: 55px;
+  }
+}
+
+.main_header_text {
   position: relative;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1200px) {
+  .main_header_text {
+    flex: 0 0 747px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_header_text {
+    padding-left: 40px;
+  }
 }
 
 .h-1 {
@@ -141,14 +171,15 @@ ul {
   color: #FFFFFF;
 }
 
-.img {
-  max-width: 100%;
-  width: 700px;
-  height: 600px;
-  background-image: url("/res/portret.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+.font-transperent {
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+
+.body-text-big {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #FFFFFF;
 }
 
 .container-fluid {
@@ -175,4 +206,11 @@ ul {
   .container {
     padding: 0 20px 0 20px;
   }
+}
+
+.img_header {
+  width: 110%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

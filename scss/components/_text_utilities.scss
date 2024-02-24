@@ -6,12 +6,11 @@
     @include font_property($h_3_size, $bold_font);
     color: $text_color;
 }
-.img{
-    max-width: 100%;
-    width: 700px;
-    height: 600px;
-    background-image: url("/res/portret.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+.font-transperent{
+    color: $white_transperent;
+}
+.body-text-big{
+    @include font_property($body_1_size, $regulr_font);
+    line-height: 27px;
+    color: $text_color;
 }
