@@ -37,13 +37,14 @@ textarea {
   flex-direction: row;
   -moz-column-gap: 40px;
        column-gap: 40px;
+  margin: 0 80px 160px 80px;
 }
 .article p {
   margin: 0;
 }
 
 .head_of_article {
-  margin: 0 auto;
+  margin: 130px 84px 90px 84px;
 }
 .head_of_article p {
   margin: 0;
