@@ -10,12 +10,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    z-index: 4;
 }
 .nav_menu{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 32px 0 32px 0;
+    @include media(max, md){
+        display: none;
+    }
 }
 
 .header_article{
@@ -23,6 +31,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 88px !important;
+    padding-bottom: 60px !important;
     @include media(max, xxl) {
         padding-left: 0 !important;
     }
@@ -41,6 +51,10 @@
     @include media(max, xl) {
         font-size: $h_2_size;
     }
+    @include media(max, sm) {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
 }
 .main_header_text{
     position: relative;
@@ -51,6 +65,9 @@
         flex: 0 0 747px;
     }
     @include media(max, md) {
-        padding-left: 40px;
+        padding-left: 20px;
     }
+}
+.navbar_on_scroll{
+    background-color: $base_color;
 }

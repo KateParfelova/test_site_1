@@ -23,7 +23,7 @@
     @include media(max, md){
       padding: 0 40px 0 40px;
     }
-    @include media(max, xs){
+    @include media(max, sm){
       padding: 0 20px 0 20px;
     }
   }
