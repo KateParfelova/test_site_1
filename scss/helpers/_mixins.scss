@@ -31,7 +31,33 @@
     width: 100%;
   }
 }
+//article of Kate
 @mixin text_article_work() {
+  color:$light_grey_color;
+  font-size:$overline_size;
+}
+@mixin text_article_companies() {
+  color:$text_color;
+  font-size:$h_2_size;
+}
+@mixin text_article_numbers() {
+  color:$light_grey_color;
+  font-size:$label_1_size;
+}
+@mixin text_article_facebook_google_dribble () {
+  color:$text_color;
+  font-size:$h_3_size;
+}
+@mixin text_article_google () {
+  color:$green_accent_color;
+}
+@mixin text_article_facebook () {
+  color: $blue_accent_color;
+}
+@mixin text_article_drible () {
+  color: $pink_accent_color;
+}
+@mixin text_article_about_companies () {
   color:$light_grey_color;
   font-size:$overline_size;
 }

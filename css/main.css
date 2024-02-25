@@ -34,9 +34,45 @@ textarea {
 
 .article {
   display: flex;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
 
-.text_of_article {
-  color: #DEECF9;
+.text_of_article_work_experience {
+  color: #8491A0;
+  font-size: 16px;
+}
+
+.text_of_article_companies {
+  max-width: 695px;
+  color: #FFFFFF;
+  font-size: 55px;
+}
+
+.text_of_article_numbers {
+  color: #8491A0;
+  font-size: 117px;
+}
+
+.text_of_article_facebook_google_dribble {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.google {
+  color: #3CC74E;
+}
+
+.facebook {
+  color: #609BFF;
+}
+
+.dribble {
+  color: #E95D90;
+}
+
+.text_article_about_companies {
+  color: #8491A0;
   font-size: 16px;
 }/*# sourceMappingURL=main.css.map */

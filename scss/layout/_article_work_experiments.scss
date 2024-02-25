@@ -1,6 +1,30 @@
 .article {
     display:flex;
+    flex-direction: row;
+    column-gap: 40px;
 }
-.text_of_article {
+.text_of_article_work_experience {
     @include text_article_work;
+}
+.text_of_article_companies {
+    max-width: 695px;
+    @include text_article_companies;
+}
+.text_of_article_numbers {
+    @include text_article_numbers;
+}
+.text_of_article_facebook_google_dribble {
+    @include text_article_facebook_google_dribble;
+}
+.google {
+    @include text_article_google;
+}
+.facebook {
+    @include text_article_facebook;
+}
+.dribble {
+    @include text_article_drible;
+}
+.text_article_about_companies {
+    @include text_article_about_companies;
 }
