@@ -71,7 +71,7 @@ ul {
 .header_container_fluid {
   background-image: linear-gradient(to right, #000000 37.5%, #181823 30%);
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1308px) {
   .header_container_fluid {
     background-image: none;
   }
