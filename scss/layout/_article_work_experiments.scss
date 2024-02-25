@@ -2,6 +2,15 @@
     display:flex;
     flex-direction: row;
     column-gap: 40px;
+    p {
+        margin:0;
+    }
+}
+.head_of_article {
+    margin:0 auto;
+    p {
+        margin:0;
+    }
 }
 .text_of_article_work_experience {
     @include text_article_work;
