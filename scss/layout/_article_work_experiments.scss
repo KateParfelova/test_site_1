@@ -1,14 +1,19 @@
+.head_of_article {
+    margin: 80px 84px 40px 84px;
+
+    p:first-child {
+        margin-bottom: 6px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
 .article {
     display:flex;
     flex-direction: row;
-    column-gap: 40px;
-    margin:0 80px 160px 80px;
-    p {
-        margin:0;
-    }
-}
-.head_of_article {
-    margin:130px 84px 90px 84px;
+    column-gap: 68px;
+    margin:0 80px 80px 80px;
     p {
         margin:0;
     }
